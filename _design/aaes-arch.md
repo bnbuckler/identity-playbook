@@ -19,7 +19,7 @@ Designing an AAES solution architecture requires agencies to consier the capabil
 
 This section provides a high-level AAES solution architecture diagram illustrating the services and capabilities introduced in the ICAM segment architecture.
 
-![alt text](../AAES.jpg/ "AAES Architecture")
+<div style="text-align:center"><img src="{{site.baseurl}}/img/AAES.png"/></div>
 
 The diagram above is intended to serve as a high-level depiction of the ICAM target state for an AAES capability. It is representative of the various solutions that an agency may choose to implement. The solution components within the AAES Infrastructure are represented generically and could be implemented using a variety of Commercial Off-The-Shelf (COTS) or purpose-built products. Agencies should evaluate their existing ICAM and infrastructure investments and select the approach that best meets their needs.
 
