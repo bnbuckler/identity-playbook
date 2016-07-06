@@ -50,7 +50,7 @@ navigation:
   internal: true
   coll: true
   collname: overview
-- text: Planning Your Digital Identity Collection Process
+- text: Plan Your Digital Identity Collection Process
   url: plan/index
   internal: true
   coll: true
