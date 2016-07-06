@@ -11,6 +11,7 @@ When designing an AAES to integrate and streamline collection of digital identit
 Agencies must determine how they will integrate an AAES capability with existing IT infrastructure. This section serves as an overview of approaches an agency can take when implementing their AAES solution.
 
 <br>
+
 [AAES Solution Components](../aaes-solutions)
 
 In the AAES infrastructure, there are two main components:  Authoritative Attribute Manager (AAM) and the Authoritative Attribute Distributor. This section discusses the functionality and approaches for implementing the two components.
