@@ -16,6 +16,8 @@ Agencies must determine how they will integrate an AAES capability with existing
 
 In the AAES infrastructure, there are two main components:  Authoritative Attribute Manager (AAM) and the Authoritative Attribute Distributor. This section discusses the functionality and approaches for implementing the two components.
 
+<br>
+
 [AAES Common Design Characteristics](../aaes-design)
 
 There are several design characteristics that an agency should include when designing their AAES architecture. 
