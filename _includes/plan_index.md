@@ -1,4 +1,4 @@
-# Introduction
+# Plan Your Digital Identity Collection and Sharing Process
 --------------------------------------------
 
 Before implementing an AAES to store and share identity data, agencies will need to establish plans for some key elements of the identity proofing process: 
@@ -17,6 +17,6 @@ Agencies should determine which systems will be considered the most reliable and
 
 <br>
 
-[Digital Identity Process Integration](../id-integration) 
+[Digital Identity Process Integration](id-integration) 
 
 Agencies should look at how their identity management processes (e.g., HR processing, background investigations, contractor processing) can be integrated and streamlined to reduce the number of data collecion points, eliminate redundancy, and minimize the us of paper-based forms for identity data collection.
