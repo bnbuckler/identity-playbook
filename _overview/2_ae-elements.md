@@ -1,6 +1,6 @@
 ---
 layout: page_collection
-title: Attribute Exchange
+title: Authoritative Attribute Exchange Service
 collection: overview
 permalink: overview/2_ae-elements/
 ---
