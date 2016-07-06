@@ -3,6 +3,8 @@ layout: page
 title: Contribute
 permalink: /contribute/
 ---
+--------------------------------------------------------------
+
 This site is for the collaborative development of the Federal Identity, Credential and Access Management (FICAM) Program's Digital Identity Collection and Sharing Playbook. 
 
 #### How to Contribute
