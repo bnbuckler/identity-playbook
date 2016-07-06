@@ -2,7 +2,7 @@
 layout: page_collection
 title: Digital Identity Process Integration
 collection: plan
-permalink: plan/3_id-integration/
+permalink: plan/id-integration/
 ---
 <script>
 $(function() {
