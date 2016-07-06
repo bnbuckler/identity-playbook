@@ -65,6 +65,10 @@ navigation:
   internal: true
   coll: true
   collname: implement
+- text: Contribute
+  url: contribute
+  internal: true
+  coll: false
   
 collections:
   overview: 
