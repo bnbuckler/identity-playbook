@@ -9,10 +9,10 @@ Additionally, agencies are expected to establish an Authoritative Attribute Exch
 
 This playbook havs been divided into 4 sections:
 
-* [Overview](../identity-playbook/overview/index/)
-* [Plan](../identity-playbook/plan/)
-* [Design](../identity-playbook/design/)
-* [Implement](../identity-playbook/implement/index/)
+* [Overview](../identity-playbook/overview/index/) of Digital Identity Collection Process
+* [Plan](../identity-playbook/plan/) Your Digital Identity Collection Process
+* [Design](../identity-playbook/design/) Your Digital Identity Collection Process
+* [Implement](../identity-playbook/implement/index/) Your Digital Identity Collection Process
 
 
 
