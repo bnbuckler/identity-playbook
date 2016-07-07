@@ -26,7 +26,7 @@ Agencies are not required to establish unique person identifiers in order to ach
 
 Additional benefits of establishing a unique person identifier system within an agency include:
 
-| <center> Benefit </center> | <center> Description </center> |
+| <center> Benefit </center>              | <center> Description </center> |
 |-------------------------------------------------------------|
 | **Reduced data discrepancies** | Correlate identity data for the same individual across multiple systems. Using a unique person identifier helps to easily detect and resolve conflicts between different sources of identity attribute data and helps to ensure the uniqueness of an identity across the enterprise. |
 | **Streamlined digital identity creation** | Streamline the process for reconciling attributes into a single digital identity by eliminating the need to manually correlate attributes across various source systems. |
