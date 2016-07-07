@@ -19,6 +19,8 @@ An agency typically collects a wide variety of data elements about its users. Wi
 
 The ICAM Subcommittee developed the government-wide Core Person Model for use by agencies working to align with the ICAM architecture. As shown in the table below, the Core Person Model provides a common definition for the attributes that comprise a digital identity record within the Federal Government. 
 
+<br>
+
 | <center> Attribute </center> | <center> Description </center> |
 | :---------------------------:|--------------------------------|
 | **Person Identifier** | Uniquely identifies an individual within a specified domain in which the person exists (e.g., Locally Unique Identifier [LUID] associated with the Backend Attribute Exchange [BAE]) |
@@ -33,6 +35,8 @@ The ICAM Subcommittee developed the government-wide Core Person Model for use by
 | **_Set of_ Clearances** | An individual's background investigation and/or clearance history (e.g., investigation type, completion date, status, etc.)|
 | **_Set of_ Affiliates** | An individual's affiliation with an organization (e.g., employee status, business relationship, etc.)|
 | **Social Security Number (SSN)** | An individual's SSN or other national ID with a corresponding country code for foreign nationals |
+
+<br>
 
 The attributes identified in the Core Person Model are intended to serve as a baseline. It is expected that agencies may need to supplement the model with additional attributes that support the agency's mission-specific business needs. An agency should work to streamline and consolidate the processes for storing and managing them wherever possible. 
 
