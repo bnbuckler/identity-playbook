@@ -21,6 +21,7 @@ This playbook havs been divided into 4 sections:
 
 * [Plan](../identity-playbook/plan/index) Your Digital Identity Collection Process
 <br>
+
  * Information about Core Identity Attributes can be found [here](../identity-playbooks/plan/id-attributes/)
  * Learn about [Authoritative Data Sources](../identity-playbook/plan/auth-soruces/)
  * Read about how to [integrate digital identity processes](../identity-playbook/plan/id-integration/) to streamline data collection
@@ -29,6 +30,7 @@ This playbook havs been divided into 4 sections:
 
 * [Design](../identity-playbook/design/index) Your Digital Identity Collection Process
 <br>
+
  * Learn about the techniques that can be used to [manage digital identity records](../identity-playbook/design/1_manage-records/)
  * View a high-level depiction of the [Authoritative Attribute Exchange Service Architecutre](../identity-playbook/design/2_aaes-arch/)
  * Learn about the [solution components](../identity-playbook/3_aaes-solutions/) of the Authoritative Attribute Exchange Service
@@ -37,7 +39,6 @@ This playbook havs been divided into 4 sections:
 <br>
 
 * [Implement](../identity-playbook/implement/index/) Your Digital Identity Collection Process
-<br>
  * Learn about the [considerations](../identity-playbook/implement/aaes-implement/) agencies should take when implementing an Authoritative Attribute Exchange Service
 
 
