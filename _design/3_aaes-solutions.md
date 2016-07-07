@@ -55,6 +55,7 @@ The AAM can be implemented in several ways, based on an agency's existing invest
 
 An agency should perform an analysis to determine which AAM option described above best meets its business needs and mission, while balancing the need to leverage existing investments. There are a number of benefits and limitations associated with each option that an agency should consider as part of its analysis. These benefits and limitations are outlined in the table below.
 
+<br>
 
 | <center> Approach </center> | <center> Benefits </center> | <center> Limitations </center> |
 |-------------------------------------------------------------------------|
