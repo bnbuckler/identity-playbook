@@ -2,7 +2,7 @@
 layout: page_collection
 title: AAES Solution Components
 collection: design
-permalink: design/aaes-solutions/
+permalink: design/3_aaes-solutions/
 ---
 <script>
 $(function() {
