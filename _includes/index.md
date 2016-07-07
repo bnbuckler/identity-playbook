@@ -9,6 +9,8 @@ Additionally, agencies are expected to establish an Authoritative Attribute Exch
 
 This playbook havs been divided into 4 sections:
 
+<br>
+
 * [Overview](../identity-playbook/overview/index/) of Digital Identity Collection Process
 
 <br>
