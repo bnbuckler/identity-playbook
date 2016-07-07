@@ -17,6 +17,7 @@ $(function() {
 
 Deploying an AAES capability requires considerable planning, support, and coordination from various groups with an agency. Specific planning and coordination considerations include the following:
 
+<br>
 
 <div id="accordion" markdown="1">
 
