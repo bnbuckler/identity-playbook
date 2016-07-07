@@ -2,7 +2,7 @@
 layout: page_collection
 title: Managing Digital Identity Records
 collection: design
-permalink: design/manage-records/
+permalink: design/1_manage-records/
 ---
 -------------------------------------------------------
 
