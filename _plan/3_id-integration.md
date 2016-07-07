@@ -29,13 +29,19 @@ The information and guidance presented in this section is intended to assist age
 
 * What steps can my agency take to streamline the processes for managing contractor identity data?
 
+<br>
+
 | <center> Privacy Tip </center> | 
 |-------------------------------|
 | Electronic security methods (e.g., encryption, role-based access control, etc.), when deployed as part of an agency's overall security program, can be more efficient, more reliable, and less expensive than traditional methods (e.g., locked rooms, filing cabinets, etc.) for protecting sensitive data. However, an agency should consult with its Privacy Offer to ensure that these electronic methods adhere to privacy laws, directives, and policies. |
 
+<br>
+
 Once the core person attributes are established and authoritative data sources are defined, agencies should analyze the backend processes that are used to obtain identity data to determine where processes can be enhanced and improved. Per OMB Circular A-123, management is responsible for establishing and maintaining internal controls to achieve the objectives of effective and efficient operations, reliable financial reporting, and compliance with applicable laws and regulations. This responsibility is also held by ICAM implementers, who are accountable for improving the effectiveness, quality, and productivity of federal programs and operations. 
 
 The goals of OMB Circular A-123 closely align with the effort to improve the processes within an agency that collect identity data, described in the table below.
+
+<br>
 
 | <center> Process Integration Step </center> | <center> Description </center> | <center> Key Considerations </center> |
 |:-----------------------------:|----------------------------------|
@@ -45,6 +51,8 @@ The goals of OMB Circular A-123 closely align with the effort to improve the pro
 | **Step 4: Imrpove** | Provide implementation plan to business process owners and provide recommendations on how to streamline, automate, and enhance identity data collection | • Integrate similar, redundant processes <br><br> • Minimize duplicative information collection <br><br> • Replace paper-based collection processes with electronic methods, as appropriate <br><br> • Automate manual processes, as appropriate |
 | **Step 5: Implement** | Business process owners put the implementation plan into action | • Implement relevant metrics for digital identity processes <br><br> • Establish training needs <br><br> • Make updates to relevant process documentation, etc. |
 | **Step 6: Control** | Develop methods for continuously monitoriing and measuring success of the process improvement effort | • Conduct surveys to trach end-user satisfaction <br><br> • Conduct surveys to support staff productivity and satisfaction <br><br> •Capture process efficiency, data quality, and cost savings <br><br> • Establish governance and reporting requirements <br><br> • Create a process control board <br><br> • Review audit logs and workflow of sensitive information flows |
+
+<br>
 
 By performing a thorough analysis of backend processes and taking steps to achieve a tighter integration of identity processes, agencies can expect to see a number of benefits, including: 
 
