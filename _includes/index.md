@@ -12,8 +12,8 @@ This playbook havs been divided into 4 sections:
 <br>
 
 * [Overview](../identity-playbook/overview/index/) of Digital Identity Collection Process
-..* Learn more about (Digital Identity)[identity-playbook/overview/1_enterprise-id/] 
-..* Summary of the (Authoritative Attribute Exchange Service)[identity-playbook/overview/2_ae-elements/]
+  * Learn more about (Digital Identity)[identity-playbook/overview/1_enterprise-id/] 
+  * Summary of the (Authoritative Attribute Exchange Service)[identity-playbook/overview/2_ae-elements/]
 
 <br>
 
