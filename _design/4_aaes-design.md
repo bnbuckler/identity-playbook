@@ -2,7 +2,7 @@
 layout: page_collection
 title: AAES Common Design Characteristics
 collection: design
-permalink: design/aaes-design/
+permalink: design/4_aaes-design/
 ---
 <script>
 $(function() {
