@@ -2,7 +2,7 @@
 layout: page_collection
 title: AAES Architecture
 collection: design
-permalink: design/aaes-arch/
+permalink: design/2_aaes-arch/
 ---
 <script>
 $(function() {
