@@ -17,6 +17,8 @@ $(function() {
 
 In order to successfully build and deploy an AAES capability, it is necessary to understand the common characteristics that the solution should include in order to meet the objectives of the ICAM target state. These common characteristics are identified in the table below are identified in the table below. However, it is also important for agencies to consider their specific needs when desigining an AAES.
 
+<br>
+
 | AAES Characteristic ID | <center> AAES Solution Characteristics </center> |
 |:-----------------------------------------:|------------------------|
 | **AAES 1** | Provides agggregation of identity attributes |
