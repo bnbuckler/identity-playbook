@@ -19,6 +19,8 @@ An authoritative data source for identity is a repository or system that contain
 
 Within many federal agencies, authoritative identity data is dispersed across a number of different systems that are often independently managed. Some agencies, however, may operate a single centralized repository of identity data, such as an Identity Management System (IDMS). While an agency is not required to have a single repository of identity data, it is expected that agencies will designate an authoritative data source for each data element in the Core Person Model and work to minimize the number of data sources used to collect and maintain the same identity information. In cases where an agency houses identity data elements across several authoritative data sources, it is recommended that it share or map identifiers between the data sources in order to avoid collisions and errors. 
 
+<br>
+
 | <center> Lessons Learned </center> |
 |------------------------------------|
 |Sometimes identifying an authoritative source can lead to other efficiencies. Treasury identified HRConnect as its authoritative source of core identity data for employees and contractors. As a result, Treasury was able to establish HRConnect as the originator of the Treasury Unique Identifier (TrUID), which is used to link users in USAccess, Treasury Enterprise Director, and bureau Identity Management Systems (IDMS) through the user's lifecycle. As a result, data quality is dramatically improved, while reducing redundant data collection. |
@@ -31,11 +33,17 @@ Identifying which systems/resources are authoritative for specific identity attr
 
 As part of complying with HSPD-12, many agencies have already identified authoritative data sources for the data elements that are required as part of the PIV enrollment and issuance process. It is likely, however, that an agency will need to conduct additional authoritative soruce discovery in order to identify authrortiative source for each data element contained in the Core Person Model.
 
+<br>
+
 | <center> Implementation Tip </center> |
 |---------------------------------------|
 | Many agencies maintain an inventory of systems and applications that house Personally Identifiable Information, often referenced in Systems of Record Nootices (SORNs). This inventory can provide a starting point for determining which agency systems can serve as authoritative data sources for identity attributes. As a SORN specifies the permissible, or routine, uses of the data in a particular system of records, it will need to be modified if the information will be used in a different way than anticipated. |
 
+<br>
+
 In general, many authoritative data sources share a number of common characteristics that agencies should look for as part of the discovery process. The table below provides a description of these characteristics.
+
+<br>
 
 | <center> Characteristic </center>        | <center> Description </center> |
 |------------------------------------------|--------------------------|
@@ -47,6 +55,8 @@ In general, many authoritative data sources share a number of common characteris
 | **Data Protection** | Has restrictions in place that limit the ability to change stored data to a select group of users. |
 | **Data Ownership** | Generally owned and maintained by groups that own the data itself and can vouch for its authenticity. |
 | **Data Modification** | Performs modification of data originated elsewhere (e.g., updating identity attributes for use in downstream processes, data normalization) and becomes authoritative by virtue of performing the modification. |
+
+<br>
 
 While identifying and designating authoritative data sources, an agency should document and map core digital identity data elements based on how the data is originated, types of transformations that occur to the data, and where the data is stored. It is possible for one system to be authoritative for data element creation and a second system to be authoritative for data element modification. For example, an employees's initial building and room number may be created in the PACS, whereas subsequent changes to building and room may be handled in an employee locator system. It is still important to ensure that there is only one authoritative source for data creation and only one for data modification.
 
@@ -77,6 +87,8 @@ Authoritative data sources are subject to the security and privacy requirements 
 * **Verify authoritative source authenticity.** It may be desirable for downstream applications that rely on identity data from authoritative sources to validate the attributes provided by the source. This typically includes verifying the identity of the source and the time at which it validated the attribute values. This can be accomplished by verifying a digital signature placed by the authoritative source around selected groups of attribute- value pairs or through the use of a real-time verification service.
 
 * **Provide redress capability.** In accordance with the Privacy Act of 1974, an agency should ensure that users have redress capabilities to rectify errors associated with identity records. This capability improves the accuracy and freshness of authoritative data, while also providing a level of transparency for end-users and consumers of identity data.
+
+<br>
 
 |<center> Implementation Tip </center> |
 |--------------------------------------|
