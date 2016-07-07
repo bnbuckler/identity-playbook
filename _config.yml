@@ -45,22 +45,22 @@ navigation:
   url: index.html
   internal: true
   coll: false
-- text: Overview of Digital Identity Collection
+- text: Overview of Digital Identity Collection and Sharing
   url: overview/index/
   internal: true
   coll: true
   collname: overview
-- text: Plan Your Digital Identity Collection Process
+- text: Plan Your Digital Identity Collection and Sharing Process
   url: plan/index
   internal: true
   coll: true
   collname: plan
-- text: Design Your Digital Identity Collection Process
+- text: Design Your Digital Identity Collection and Sharing Process
   url: design/index
   internal: true
   coll: true
   collname: design
-- text: Implement Your Digital Identity Collection Process
+- text: Implement Your Digital Identity Collection and Sharing Process
   url: implement/index/
   internal: true
   coll: true
