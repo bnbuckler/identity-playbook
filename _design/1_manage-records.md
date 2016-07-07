@@ -28,17 +28,23 @@ Additional benefits of establishing a unique person identifier system within an 
 
 | <center> Benefit </center> | <center> Description </center> |
 |-------------------------------------------------------------|
-| **Mitigating data discrepancies** | Ability to correlate identity data for the same individual across multiple systems. Using a unique person identifier helps to easily detect and resolve conflicts between different sources of identity attribute data and helps to ensure the uniqueness of an identity across the enterprise. |
-| **Streamlining digital identity creation** | Streamline the process for reconciling attributes into a single digital identity by eliminating the need to manually correlate attributes across various source systems. |
-| **Enabling modernized access control** | Using a unique person identifier provides an agency with a greater degree of confidence when granting user access in an automated fashion because the identity attributes that are used to support authentication and authorization decisions are bound to an individual‘s digital identity through the unique identifier. |
-| **Streamlining federated identity management** | In a federated environment, agencies can correlate identity data by sharing their unique person identifiers, called parallel person identifiers. Alternatively, an agency can add an agency-specific code to its unique person identifier or have its own agency-specific code added to another organization‘s unique person identifier. Doing so would extend the attribute‘s uniqueness and reciprocity across the broader Federal Government community. |
+| **Reduced data discrepancies** | Correlate identity data for the same individual across multiple systems. Using a unique person identifier helps to easily detect and resolve conflicts between different sources of identity attribute data and helps to ensure the uniqueness of an identity across the enterprise. |
+| **Streamlined digital identity creation** | Streamline the process for reconciling attributes into a single digital identity by eliminating the need to manually correlate attributes across various source systems. |
+| **Modernized access control** | Using a unique person identifier provides an agency with a greater degree of confidence when granting user access in an automated fashion because the identity attributes that are used to support authentication and authorization decisions are bound to an individual‘s digital identity through the unique identifier. |
+| **Streamlined federated identity management** | In a federated environment, agencies can correlate identity data by sharing their unique person identifiers, called parallel person identifiers. Alternatively, an agency can add an agency-specific code to its unique person identifier or have its own agency-specific code added to another organization‘s unique person identifier. Doing so would extend the attribute‘s uniqueness and reciprocity across the broader Federal Government community. |
 | **Visibility into identity data** | Agencies will better understand the user‘s role and entitlements across the enterprise. This data can be analyzed within an agency or between agencies for account auditing, threat identification, privilege correlation, and compliance. |
 
+<br>
+
 When implementing a system to create and manage unique person identifiers, an agency should ensure that these attributes are randomly generated in a way that the identifier cannot be easily guessed by a third party. Identifiers should be generated according to a common standard, algorithm, or naming convention. The identifier itself should not be based on commonly available information about the individual, and such information about the user should not be able to be obtained by manipulation or reverse engineering.
+
+<br>
 
 | <center> Implementation Tip </center> |
 |---------------------------------------|
 | Request for Comments (RFC) 4122, A Universally Unique Identifier (UUID) Uniform Resource Namespace, offers agencies a standardized approach for creating unique person identifiers using time-based, name-based, or random number algorithms. Leveraging an approach like RFC 4122 is the preferred approach to creating identifiers, as it results in an infinitesimally small chance of collision, without the need for a managed identifier namespace. |
+
+<br>
 
 Unique identifiers should not be derived from or linked to data that is subject to change, such as user biographic data or credential-specific numbers. For example, the Federal Agency Smart Credential Number (FASC-N) or optional Universally Unique Identifier (UUID) of the PIV card should not be used as a person's enterprise unique identifier if the intended use is to link the identity record to the user‘s active credential. These numbers are linked to a specific credential and change with each consecutive card issued to that person. If an agency is only seeking an authoritative originator for its unique numbers and the identifier can persist across the user‘s digital identity life cycle, a card identifier may be a viable option. As an alternative, an agency should establish a separate unique person identifier attribute (i.e., not linked to a credential) that is intended to support digital identity management for managed identities that will span multiple credentials.
 
@@ -47,9 +53,13 @@ Although there may be multiple authoritative sources containing different sets o
 
 It is also important that unique identifiers be reconciled on a regular basis to ensure there are neither redundant identifiers nor the same indentities with different identifiers. If fraudulent enrollment is a concern, an agency can leverage one-to-many biometric matching against the entire enrolled community to detect duplicate enrollments and reconcile individuals who may have more than one identifer.
 
+<br>
+
 | <center> Implementation Tip </center> |
 |---------------------------------------|
 | Treasury's HRConnect has been identified as the authoritative source of core identity data for employees and contractors within Treasury. As a result, HRConnect is the originator of the Treasury Unique Identifier (TrUID), which is used to link users in USAccess, Treasury Enterprise Directory, and bureau Identity Management Systems (IDMS) through the user's lifecycle. This approach dramatically improves data quality and reduces redundant collection of data.|
+
+<br>
 
 An agency should also consider the life cycle of unique person identifiers and establish a policy to govern if and when identifiers for identities that are no longer valid can be recycled and reused. An agency‘s policy for the life cycle of unique person identifiers should seek to address the following:
 
@@ -84,9 +94,13 @@ In cases where unique person identifiers or multi-attribute keys are not used, i
 
 Within an agency or organization, each application may have different naming standards for user account creation. Without a unique identifier or multi-attribute key to serve as the primary key, it may be necessary to develop unique correlation algorithms for every application in the enterprise. In addition to requiring additional development time, this process may also introduce additional risk in successfully identifying related records during correlation activities. In order to resolve these errors, administrators would then spend additional time manually verifying identities, attributes, and entitlements and reconciling each account within the application.
 
+<br>
+
 |<center> Lessons Learned </center> |
 |-----------------------------------|
 | A federal agency with a large user base began a LACS modernization effort, initially relying on manual attribute correlation techniques to bind identity attributes to digital identities. Early in the implementation, the agency determined that the time and effort associated with manually resolving data collisions had significant impacts to the cost and schedule of the overall effort. To mitigate this, the agency implemented a unique person identifier system, which offered a more efficient approach to identity correlation. |
+
+<br>
 
 Regardless of the approach, this type of attribute correlation is often labor and time intensive. In addition, use of manual attribute correlation can reduce the ability to detect and resolve security and audit issues that may arise in identity records and user accounts (e.g., duplicate entries for the same individual due to status or affiliation changes). This can also result in duplicate user accounts and identity records appearing in other agency applications. Duplicate user accounts can drive up software licensing costs on some applications, and the accounts may not get detected and terminated when a user leaves the agency. 
 
