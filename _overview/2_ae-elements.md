@@ -29,26 +29,30 @@ Each of these core elements are discussed in greater detail below, providing gui
 
 <br>
 
-### <center> Protocol </center>
+### Protocol
 
 Defining a common exchange protocol enables the involved parties to communicate using the same language and set of rules. When establishing an attribute sharing capability, an agency should select a protocol that meets the technical operational needs of both the Identity Provider and Relying Party. Selecting an appropriate protocol is also dependent on the type of connection that is desired between the parties, as different types of connections may not be equally supported by all approved protocols.
 
 The table below contains a sampling of several common protocols used for exchanging identity data.
 
+<br>
+
 | <center> Protocol </center> | <center> Description </center> |
 |:---------------------------:|------------------------------------------|
 | **LDAP/s** | Lightweight Directory Access Protocol is used to read and/or edit directories. Traffic to and from the directory should be encrypted (i.e., TLS, SSL, Internet Protocol Security). Access control should be in place to ensure data is provided to only those authorized to view it. |
 | **DSML** | Directory Service Markup Language provides directory service information in an XML syntax. Data traverses across HTTP/s. |
-| **SAML**| Security Assertion Markup Lanaguage is used to exchange authentication and authorization data in XML. |
+| **SAML**| Security Assertion Markup Language is used to exchange authentication and authorization data in XML. |
 | **SPML**| Service Provisioning Markup Language is an open standard that uses an XML-based framework for the integration and interoperation of service provisioning requests. |
 
 <br>
 
-### <center> Payload </center>
+### Payload
 
 A critical component of any identity attribute exchange capability involves defining what attributes will be exchanged between the parties and how those attributes will be formatted. Defining attribute syntax (e.g., format) helps ensure that identity attributes are received in such a manner that they are usable within a relying party application. This is typically accomplished by establishing an attribute contract.
 
 When streamlining the exchange and management of identity data within an agency, it is expected that the payload will align with the government-wide Core Person Model. However, an agency may opt to include additional attributes based on its specific mission and business needs.
+
+<br>
 
 | <center> Terminology </center> | 
 |---------------------------------|
@@ -56,9 +60,11 @@ When streamlining the exchange and management of identity data within an agency,
 
 <br>
 
-### <center> Policy </center>
+### Policy
 
 Establishing governance is important to maintaining the ongoing operation of identity attribute sharing arrangements and providing a framework to help ensure that both the Identity Provider and Relying Party(s) operate within the confines of the arrangement. An agency implementing an internally-focused attribute sharing capability should establish agency policies governing the appropriate use of identity data that is made available through the solution. This can often alleviate the need for point-to-point agreements between groups within the organization.
+
+<br>
 
 | <center> Privacy Tip </center> |
 |--------------------------------|
