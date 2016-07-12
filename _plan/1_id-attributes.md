@@ -15,9 +15,9 @@ $(function() {
 </script>
 -----------------------------------------------
 
-An agency typically collects a wide variety of data elements about its users. Within this data set, smaller subsets of attributes enable an agency to uniquely identify an individual within the organization and supports execution of meaningful access control decisions. This data seet is known as the core digital identity. A key enabler for agencies to move toward the target state approach for core digital identities is the development of a common government-wide Core Person Model, intended to manage and share digital identity records.
+An agency typically collects a wide variety of data elements about its users. Within this data set, smaller subsets of attributes enable an agency to uniquely identify an individual within the organization and supports execution of meaningful access control decisions. This data set is known as the core digital identity. A key enabler for agencies to align with the FICAM architecture for core digital identities is the development of a common government-wide Core Person Model, intended to manage and share digital identity records.
 
-The ICAM Subcommittee developed the government-wide Core Person Model for use by agencies working to align with the ICAM architecture. As shown in the table below, the Core Person Model provides a common definition for the attributes that comprise a digital identity record within the Federal Government. 
+The ICAM Subcommittee developed the government-wide Core Person Model for use by agencies working to align with the FICAM architecture. As shown in the table below, the Core Person Model provides a common definition for the attributes that comprise a digital identity record within the Federal Government. 
 
 <br>
 
@@ -25,12 +25,12 @@ The ICAM Subcommittee developed the government-wide Core Person Model for use by
 | :---------------------------:|--------------------------------|
 | **Person Identifier** | Uniquely identifies an individual within a specified domain in which the person exists (e.g., Locally Unique Identifier [LUID] associated with the Backend Attribute Exchange [BAE]) |
 | **Name** | An individual's name, typically including first, middle, last, and display names |
-| **_Set of_ Biometrics** | A measured biological or behaviroal characteristic of an individual (e.g., electronic fingerprint template, facial image) |
+| **_Set of_ Biometrics** | A measured biological or behavioral characteristic of an individual (e.g., electronic fingerprint template, facial image) |
 | **Physical Description** | An individual's physical characteristics (e.g., height, eye color, hair color, sex) |
 | **Birth Record** | Pertains to the place (city, state, and country) and date of a person's birth record |
 | **Contact Information** | Includes an individual's phone number(s) and work mailing address |
 | **_Set of_ Credentials** | Relates to one or more identity credentials possessed by an individual (e.g., credential sponsor, FASC-N, serial number(s), issuer, revocation uniform resource identifier [URI], etc.) |
-| **_Set of_ Citizenships** | An indvidual's country or countries of citizenship, commonly expressed as a digraph or trigraph |
+| **_Set of_ Citizenships** | An individual's country or countries of citizenship, commonly expressed as a digraph or trigraph |
 | **_Set of_ Email Addresses** | An individual's current and historical email addresses |
 | **_Set of_ Clearances** | An individual's background investigation and/or clearance history (e.g., investigation type, completion date, status, etc.)|
 | **_Set of_ Affiliates** | An individual's affiliation with an organization (e.g., employee status, business relationship, etc.)|
@@ -40,7 +40,7 @@ The ICAM Subcommittee developed the government-wide Core Person Model for use by
 
 The attributes identified in the Core Person Model are intended to serve as a baseline. It is expected that agencies may need to supplement the model with additional attributes that support the agency's mission-specific business needs. An agency should work to streamline and consolidate the processes for storing and managing them wherever possible. 
 
-In order to fully leverage the Core Person Model, an agency shoud consider the following: 
+In order to fully leverage the Core Person Model, an agency should consider the following: 
 
 * **Identify where each data element is collected and stored.** Agencies should determine where each attribute is located and determine which offices or groups are responsible for collecting and maintaining those data elements.
 <br>
