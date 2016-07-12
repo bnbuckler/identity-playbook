@@ -10,7 +10,7 @@ Full alignment with the FICAM architecture requires that agencies eliminate dupl
 
 <br>
 
-### <center> Unique Person Identifiers </center>
+### Unique Person Identifiers
 
 A unique person identifier is an alphanumeric string attribute that identifies a person's enterprise digital identity from others, even in cases where the underlying identity attributes may be the same (e.g., two employees with the same name). Unique person identifiers are best utilized when: 
  
@@ -73,7 +73,7 @@ An agency should also consider the life cycle of unique person identifiers and e
 
 <br>
 
-### <center> Multi-Attribute Keys </center>
+### Multi-Attribute Keys
 
 In some cases, it may not be feasible or desirable for an agency to implement a single unique person identifier attribute to manage enterprise digital identity records. This approach would likely require an agency to modify existing systems and processes or stand up a new system to create and manage unique person identifiers. 
 
@@ -87,7 +87,7 @@ When selecting attributes to form a multi-attribute key, an agency should evalua
 
 <br>
 
-### <center> Manual Identity Attribute Correlation </center>
+### Manual Identity Attribute Correlation
 
 In cases where unique person identifiers or multi-attribute keys are not used, it is likely that an agency will need to apply additional processes to bind identity attributes for an individual. Correlating identity attributes can typically be accomplished in two ways: 
 
@@ -107,6 +107,7 @@ Within an agency or organization, each application may have different naming sta
 Regardless of the approach, this type of attribute correlation is often labor and time intensive. In addition, use of manual attribute correlation can reduce the ability to detect and resolve security and audit issues that may arise in identity records and user accounts (e.g., duplicate entries for the same individual due to status or affiliation changes). This can also result in duplicate user accounts and identity records appearing in other agency applications. Duplicate user accounts can drive up software licensing costs on some applications, and the accounts may not get detected and terminated when a user leaves the agency. 
 
 Despite these challenges, an agency might choose this approach, because there is only a minimal need to change business processes and upgrade or procure technology. This might also serve as a transitional approach until regular technology refresh cycles allow an agency to implement a more automated solution to achieve greater levels of efficiency.
+
 
 
 
