@@ -1,13 +1,13 @@
-# Introduction
+# Design Your Digtial Identity Collection and Sharing Process
 --------------------------------------
 
-When designing an AAES to integrate and streamline collection of digital identity data, there are numerous components to consider in order to make the idnetity collection process as streamlined and efficient as possible. These components include:
+When designing an AAES to integrate and streamline collection of digital identity data, there are numerous components to consider in order to make the identity collection process as streamlined and efficient as possible. These components include:
 
 <br>
 
 [Managing Digital Identity Records](../1_manage-records)
 
-To eliminate duplicate and/or redundant identity data collection, agencies should establish a process to link identity attributes to the appropriate record. This section describes the approaches agencies can take to meet this goal, including unique person identifiers, multi-attribute keys, and manual idenntity attribute correlation.
+To eliminate duplicate and/or redundant identity data collection, agencies should establish a process to link identity attributes to the appropriate record. This section describes the approaches agencies can take to meet this goal, including unique person identifiers, multi-attribute keys, and manual identity attribute correlation.
 
 <br>
 
