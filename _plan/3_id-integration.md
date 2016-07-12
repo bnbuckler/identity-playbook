@@ -17,13 +17,13 @@ $(function() {
 
 Agencies collect identity data through a number of disparate processes that are conducted by offices and groups throughout the organization. These include new hire on-boarding, background investigation processing, credentialing, and access control administration. Typically, each of these processes is a manual, separate, and often redundant point for obtaining identity data. 
 
-The ICAM target state seeks to streamline and integrate digital identity management processes and minimize the number of collection points for identity data, while reducing or eliminating the use of paper-based forms as identity data collection methods. These improvements are expected to help agencies achieve greater process efficiency and improve the security and privacy around the collection and maintenance of digital identity data. 
+The FICAM architecture seeks to streamline and integrate digital identity management processes and minimize the number of collection points for identity data, while reducing or eliminating the use of paper-based forms as identity data collection methods. These improvements are expected to help agencies achieve greater process efficiency and improve the security and privacy around the collection and maintenance of digital identity data. 
 
 The information and guidance presented in this section is intended to assist agencies in providing answers to several common digital identity process integration questions, including:
 
 * What steps can my agency take to streamline and integrate the backend processes that are used to collect and manage digital identity data?
 
-* What can my agency do to streamlineand integrate the HR and on-boarding processes that are used to collect identity data?
+* What can my agency do to streamline and integrate the HR and on-boarding processes that are used to collect identity data?
 
 * How can my agency better integrate the background investigation process to eliminate redundant data collection?
 
@@ -47,10 +47,10 @@ The goals of OMB Circular A-123 closely align with the effort to improve the pro
 |:-----------------------------:|----------------------------------|
 | **Step 1: Identify** | Conduct internal information gathering with business owners to identify all of the processes within the core business areas that involve collection of identity | • Use specific criteria to define what constitutes a core business process <br><br> • Take steps to ensure successful engagement and participation of relevant process owners <br><br> • Take steps to ensure the availability of process and related data element information gathered |
 | **Step 2: Analyze** | Examine these processes and document the collection methods and types of identity information that is collected | • Identity inefficiencies <br><br> • Determine which process steps provide value and which do not <br><br> • Take note of process frequency <br><br> • Inventory the data sources <br><br> • Understand how long both the entire process and each step/section takes <br><br> • Perform quality checks to determine accuracy and completeness of information |
-| **Step 3: Align** | Use information from the data analysis to identify and prioritize improvement opportunities for inclusuion in an implementation plan | • Isolate redunancies in process steps, forms, and data elements <br><br> • Identify paper-based collection methods that can be automated <br><br> • Identify manual data entry points |
-| **Step 4: Imrpove** | Provide implementation plan to business process owners and provide recommendations on how to streamline, automate, and enhance identity data collection | • Integrate similar, redundant processes <br><br> • Minimize duplicative information collection <br><br> • Replace paper-based collection processes with electronic methods, as appropriate <br><br> • Automate manual processes, as appropriate |
+| **Step 3: Align** | Use information from the data analysis to identify and prioritize improvement opportunities for inclusion in an implementation plan | • Isolate redundancies in process steps, forms, and data elements <br><br> • Identify paper-based collection methods that can be automated <br><br> • Identify manual data entry points |
+| **Step 4: Improve** | Provide implementation plan to business process owners and provide recommendations on how to streamline, automate, and enhance identity data collection | • Integrate similar, redundant processes <br><br> • Minimize duplicative information collection <br><br> • Replace paper-based collection processes with electronic methods, as appropriate <br><br> • Automate manual processes, as appropriate |
 | **Step 5: Implement** | Business process owners put the implementation plan into action | • Implement relevant metrics for digital identity processes <br><br> • Establish training needs <br><br> • Make updates to relevant process documentation, etc. |
-| **Step 6: Control** | Develop methods for continuously monitoriing and measuring success of the process improvement effort | • Conduct surveys to trach end-user satisfaction <br><br> • Conduct surveys to support staff productivity and satisfaction <br><br> •Capture process efficiency, data quality, and cost savings <br><br> • Establish governance and reporting requirements <br><br> • Create a process control board <br><br> • Review audit logs and workflow of sensitive information flows |
+| **Step 6: Control** | Develop methods for continuously monitoring and measuring success of the process improvement effort | • Conduct surveys to trach end-user satisfaction <br><br> • Conduct surveys to support staff productivity and satisfaction <br><br> •Capture process efficiency, data quality, and cost savings <br><br> • Establish governance and reporting requirements <br><br> • Create a process control board <br><br> • Review audit logs and workflow of sensitive information flows |
 
 <br>
 
@@ -66,7 +66,7 @@ By performing a thorough analysis of backend processes and taking steps to achie
 
 <br>
 
-### <center> Streamlining HR Processing </center>
+### Streamlining HR Processing
 
 Within many agencies, the Human Resources (HR) department is typically the primary source of person data for federal employees. HR is usually the first group within an agency to receive an individual's identity information, often through the job application and employee on-boarding processes. By targeting integration and streamlining of these HR processes, an agency can see significant benefits to user life cycle management.
 
@@ -84,9 +84,9 @@ There are specific steps that agencies can take to achieve this, including:
 
 <br>
 
-### <center> Streamlining Background Investigation Processing </center>
+### Streamlining Background Investigation Processing
 
-Data collected during the a background investigation readily contains a person's core digital identity. By integrating and streamlining personnel security and background investigation processes, the processes around creating and populating the digital identity can be dramatically improved. Agencies have several opportunities to accomplish this, including: 
+Data collected during a background investigation readily contains a person's core digital identity. By integrating and streamlining personnel security and background investigation processes, the processes around creating and populating the digital identity can be dramatically improved. Agencies have several opportunities to accomplish this, including: 
 
 * **Leveraging data captured during the PIV enrollment process.** Capturing data once and reusing it creates a more efficient process, while a limited number of data collection points enhances data privacy. For example, many biographic data elements (e.g., name, DOB) collected during PIV enrollment can also be used during the background investigation to reduce redundancy. 
 
@@ -96,11 +96,11 @@ Data collected during the a background investigation readily contains a person's
 
 * **Eliminating paper-based investigative forms.** Agencies should strive to eliminate the use of paper forms and manual processes to support investigation processing through OPM. Agencies should also use automated electronic processing solutions, such as OPM‘s electronic Agency Delivery of investigative results.
 
-* **Honoring reciprocity for investigations performed by other agencies.**  The ICAM architecture identifies the lack of reciprocity in accepting background investigations completed by or on behalf of another agency as a key gap in performing background investigations. An agency should utilize the capabilities provided within the Central Verification System (CVS) to report and view background investigation adjudication results.
+* **Honoring reciprocity for investigations performed by other agencies.**  The FICAM architecture identifies the lack of reciprocity in accepting background investigations completed by or on behalf of another agency as a key gap in performing background investigations. An agency should utilize the capabilities provided within the Central Verification System (CVS) to report and view background investigation adjudication results.
 
 The Office of Personnel Management (OPM) is responsible for maintaining the CVS database. The CVS stores information related to security clearance, suitability, and access decisions for contractor personnel. OPM also houses data related to credentialing determinations under HSPD-12, suitability or fitness for federal employment, fitness for contractor employees, and eligibility for access to classified information to facilitate reciprocity.
 
-An agency's responsibilies with regard to use of CVS include the following:
+An agency's responsibilities with regard to use of CVS include the following:
 
 * Report all adjudicative decisions on background investigations to OPM.
 
@@ -108,15 +108,15 @@ An agency's responsibilies with regard to use of CVS include the following:
 
 * Make daily updates to their information in CVS to report any changes, such as adding new clearances, noting revocations, denials, suspensions, and those clearances which were administratively withdrawn. In addition, agencies are required to fully refresh their CVS clearance data at least monthly.
 
-* Before initiating a new background investigation request, consult CVS to determine if an existing investigatgion is sufficent to meet the agency's needs.
+* Before initiating a new background investigation request, consult CVS to determine if an existing investigation is sufficient to meet the agency's needs.
 
 * Take steps to ensure the accuracy and maintenance of the information provided to CVS, since OPM does not own this information and other agencies may rely on it to make credentialing decisions. 
 
-* Ensure that the appropriate data elements are entered into CVS for each applicable record (e.g., name, DOB, investigatgion, clearance level, status, etc.).
+* Ensure that the appropriate data elements are entered into CVS for each applicable record (e.g., name, DOB, investigation, clearance level, status, etc.).
 
 <br>
 
-### <center> Streamlining Contractor Processing </center>
+### Streamlining Contractor Processing
 
 Although contractors may require similar access to federal employees, the methods and locations for collecting and maintaining their identity data are often very different. Digital identities for the contractor population can be challenging to manage due to a number of factors, including:
 
@@ -124,7 +124,7 @@ Although contractors may require similar access to federal employees, the method
 
 * Where it is collected to support access, contractor information is often obtained through a variety of disparate processes and managed separately for individual resources. 
 
-* Many agencies do not have exisiting authoritative sources for contractor identity data.
+* Many agencies do not have existing authoritative sources for contractor identity data.
 
 * The contractor population is fluid, as individuals often change the projects, bureau/component, or agencies they are affiliated with.
 
@@ -142,15 +142,15 @@ An agency should consider the following when streamlining the processes for coll
 
 * **Data retention.** Since contractors typically begin and end many different contracts while working with an agency, agencies should analyze their options for retaining contractor data after the contract ends. Agencies should determine a length of time for maintaining contractor data in their systems that is cost-effective and compliant with the Fair Information Privacy Principle of data minimization.
 
-* **Account and satus changes.**  Agencies should establish a process for making changes to contractor information that uses current workflows and business processes. Agencies could also consider implementing a self-service portal that allows authorized individuals to make changes to their identity information and status. This option could improve data integrity and reduce the burden on the agency‘s support staff.
+* **Account and status changes.**  Agencies should establish a process for making changes to contractor information that uses current workflows and business processes. Agencies could also consider implementing a self-service portal that allows authorized individuals to make changes to their identity information and status. This option could improve data integrity and reduce the burden on the agency‘s support staff.
 
 * **Enhanced off-boarding process.**  Agencies should establish a streamlined process for managing contractor identity records as they end their work with the agency. This process should be communicated to and followed by all relevant parties so that there is no ambiguity in the way contractors are released from the agency. The responsibility for completing this off-boarding process should be assigned to a specific person (e.g., sponsor) or office (e.g., personnel security). 
 
-* **PIV card collection.** Contractos' PIV cards must be collected during the off-boarding process. Not collecting a PIV card can have a number of negative impacts on the agency including security risks, inaccurate information on the status of their contractor population, and unnecessary costs for the management of their PIV card ($3 per month per card for the GSA Managed Service Office).
+* **PIV card collection.** Contractors' PIV cards must be collected during the off-boarding process. Not collecting a PIV card can have a number of negative impacts on the agency including security risks, inaccurate information on the status of their contractor population, and unnecessary costs for the management of their PIV card ($3 per month per card for the GSA Managed Service Office).
 
 * **Contract requirement.** A requirement should be incorporated into contracts requiring that all government property, including PIV cards, be returned when the contract is completed.
 
-* **Policy.** Agencies should establish a policy that details the apporach for collecting and managing contractor identity data. This policy should be communicated across the agency and included in all contracts. 
+* **Policy.** Agencies should establish a policy that details the approach for collecting and managing contractor identity data. This policy should be communicated across the agency and included in all contracts. 
 
 
 
