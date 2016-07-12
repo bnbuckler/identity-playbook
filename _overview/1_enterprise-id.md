@@ -15,9 +15,9 @@ $(function() {
 </script>
 ---------------------------------------
 
-An agency collects digital identity data for individuals (i.e., employees, contractors, and idnividuals with staff-like access) in order to support the agency's core business operations, issue credentials, and administer access to an agency's physical and logical resources. Therefore, in order to ensure that access control decisions across the agency are based on accurate and current information, digital identity data must be reliably managed over time.
+An agency collects digital identity data for individuals (i.e., employees, contractors, and individuals with staff-like access) in order to support the agency's core business operations, issue credentials, and administer access to an agency's physical and logical resources. Therefore, in order to ensure that access control decisions across the agency are based on accurate and current information, digital identity data must be reliably managed over time.
 
-To support this need, the ICAM architecture emphasizes the importance of an enterprise digital identity. The enterprise digital identity is a single digital representation of an individual's identity, maintained at an enterprise level, which leverages attributes from authoritative source systems. This target state vision differs from many agency environments, where agencies often rely on locally managed user identity accounts comprised of redundantly collected identity attributes. 
+To support this need, the FICAM architecture emphasizes the importance of an enterprise digital identity. The enterprise digital identity is a single digital representation of an individual's identity, maintained at an enterprise level, which uses attributes from authoritative source systems. This goal differs from many agency environments, where agencies often rely on locally managed user identity accounts comprised of redundantly collected identity attributes. 
 
 Throughout this playbook, agencies will find answers to several common digital identity questions, including:
 
