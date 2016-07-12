@@ -6,7 +6,7 @@ permalink: design/1_manage-records/
 ---
 -------------------------------------------------------
 
-Full achievement of the ICAM target state requires that agencies eliminate duplicate and/or redundant digital identity records to ensure that each federal user has only a single digital identity. Managing a single digital identity record for each user within the organization requires that an agency establish a process to link or bind identity attributes to the appropriate record. There are several common techniques for accomplishing this, which are discussed in the sub-sections below. An agency should evaluate each of these approaches and determine which method best meets its needs and aligns with existing or planned capabilities.
+Full alignment with the FICAM architecture requires that agencies eliminate duplicate and/or redundant digital identity records to ensure that each federal user has only a single digital identity. Managing a single digital identity record for each user within the organization requires that an agency establish a process to link or bind identity attributes to the appropriate record. There are several common techniques for accomplishing this, which are discussed in the sub-sections below. An agency should evaluate each of these approaches and determine which method best meets its needs and aligns with existing or planned capabilities.
 
 <br>
 
@@ -22,7 +22,7 @@ A unique person identifier is an alphanumeric string attribute that identifies a
 
 If an agency chooses to implement a single enterprise system for managing identity data, unique person identifiers should be used to correlate identity data in advance of the implementation in order to ensure that the system is populated with accurate data. Despite any changes to an individual‘s role within the organization (e.g., a contractor becomes a federal employee), these identifiers are generally assigned to an individual as part of the initial on-boarding process and persist throughout the digital identity life cycle.
 
-Agencies are not required to establish unique person identifiers in order to achieve alignment with the ICAM target state. However, doing so can help streamline the processes required to manage digital identity and support the implementation of other ICAM programs.
+Agencies are not required to establish unique person identifiers in order to achieve alignment with the FICAM architecture. However, doing so can help streamline the processes required to manage digital identity and support the implementation of other ICAM programs.
 
 Additional benefits of establishing a unique person identifier system within an agency include:
 
@@ -53,7 +53,7 @@ Unique identifiers should not be derived from or linked to data that is subject 
 
 Although there may be multiple authoritative sources containing different sets of data about an individual, the unique identifier should be generated from one originator. Doing so eliminates the possibility of collision or conflict between identifiers issued from different sources. In some cases, it may make sense for an agency to generate a unique identifier with an existing system that houses digital identity data (e.g., HR or PIV card enrollment). Some of these systems, however, only contain identity data for a portion of the total user population and should be extended to include the entire intended user population if they will be used to create unique identifiers. 
 
-It is also important that unique identifiers be reconciled on a regular basis to ensure there are neither redundant identifiers nor the same indentities with different identifiers. If fraudulent enrollment is a concern, an agency can leverage one-to-many biometric matching against the entire enrolled community to detect duplicate enrollments and reconcile individuals who may have more than one identifer.
+It is also important that unique identifiers be reconciled on a regular basis to ensure there are neither redundant identifiers nor the same identities with different identifiers. If fraudulent enrollment is a concern, an agency can leverage one-to-many biometric matching against the entire enrolled community to detect duplicate enrollments and reconcile individuals who may have more than one identifer.
 
 <br>
 
