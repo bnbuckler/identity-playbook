@@ -27,17 +27,17 @@ Within many federal agencies, authoritative identity data is dispersed across a 
 
 <br>
 
-### <center> Authoritative Data Source Identification </center>
+### Authoritative Data Source Identification
 
 Identifying which systems/resources are authoritative for specific identity attributes involves determining where identity attributes are first recorded and updated. In order to accomplish this, agencies must first determine where identity data is stored within the organization and then perform an analysis to identify which of those source systems should be designated as authoritative. 
 
-As part of complying with HSPD-12, many agencies have already identified authoritative data sources for the data elements that are required as part of the PIV enrollment and issuance process. It is likely, however, that an agency will need to conduct additional authoritative soruce discovery in order to identify authrortiative source for each data element contained in the Core Person Model.
+As part of complying with HSPD-12, many agencies have already identified authoritative data sources for the data elements that are required as part of the PIV enrollment and issuance process. It is likely, however, that an agency will need to conduct additional authoritative source discovery in order to identify authortiative source for each data element contained in the Core Person Model.
 
 <br>
 
 | <center> Implementation Tip </center> |
 |---------------------------------------|
-| Many agencies maintain an inventory of systems and applications that house Personally Identifiable Information, often referenced in Systems of Record Nootices (SORNs). This inventory can provide a starting point for determining which agency systems can serve as authoritative data sources for identity attributes. As a SORN specifies the permissible, or routine, uses of the data in a particular system of records, it will need to be modified if the information will be used in a different way than anticipated. |
+| Many agencies maintain an inventory of systems and applications that house Personally Identifiable Information, often referenced in Systems of Record Notices (SORNs). This inventory can provide a starting point for determining which agency systems can serve as authoritative data sources for identity attributes. As a SORN specifies the permissible, or routine, uses of the data in a particular system of records, it will need to be modified if the information will be used in a different way than anticipated. |
 
 <br>
 
@@ -58,15 +58,15 @@ In general, many authoritative data sources share a number of common characteris
 
 <br>
 
-While identifying and designating authoritative data sources, an agency should document and map core digital identity data elements based on how the data is originated, types of transformations that occur to the data, and where the data is stored. It is possible for one system to be authoritative for data element creation and a second system to be authoritative for data element modification. For example, an employees's initial building and room number may be created in the PACS, whereas subsequent changes to building and room may be handled in an employee locator system. It is still important to ensure that there is only one authoritative source for data creation and only one for data modification.
+While identifying and designating authoritative data sources, an agency should document and map core digital identity data elements based on how the data is originated, types of transformations that occur to the data, and where the data is stored. It is possible for one system to be authoritative for data element creation and a second system to be authoritative for data element modification. For example, an employee's initial building and room number may be created in the PACS, whereas subsequent changes to building and room may be handled in an employee locator system. It is still important to ensure that there is only one authoritative source for data creation and only one for data modification.
 
 <br>
 
-### <center> Authoritative Data Source Preparation </center>
+### Authoritative Data Source Preparation
 
 Data preparation and cleanup is needed to remove redundancies and discrepancies in the data housed within authoritative data sources. If an agency has multiple authoritative sources, it should evaluate the merits of consolidating data sources where appropriate. As identity data from authoritative data sources is shared with downstream processes, further data preparation requirements will evolve (e.g., ensuring employment status information can be read by both LACS and PACS to trigger de-provisioning workflows).
 
-An agency should perform real-time or periodic synchronization in the authrortiative data source as well as areas where the data is shared to ensure that identity data is current. For example, if the data attribute for an employee's bureau/component affiliation changes in the authoritative data source, the change should be synchronized in other systems that use this data element. This is an important step in cases where identity attributes are used to determine access privileges on a resource.
+An agency should perform real-time or periodic synchronization in the authortiative data source as well as areas where the data is shared to ensure that identity data is current. For example, if the data attribute for an employee's bureau/component affiliation changes in the authoritative data source, the change should be synchronized in other systems that use this data element. This is an important step in cases where identity attributes are used to determine access privileges on a resource.
 
 Ideally, each identity attribute within the Core Person Model should only be modified in one place. Applications and processes reliant on authoritative data should not have the capability to manipulate authoritative data. Instead, they should only consume data and make business decisions based on them. An agency should determine the logical place for updating each data attribute based upon the business processes that typically initiate the change (e.g., an agency personnel security system is a logical place for updates to background investigation status data).
 
@@ -74,15 +74,15 @@ An agency should define its processes such that the most accurate and recent ide
 
 <br>
 
-### <center> Authoritative Data Source Security and Privacy Considerations </center>
+### Authoritative Data Source Security and Privacy Considerations
 
-Authoritative data sources are subject to the security and privacy requirements in accordance with the Federal Information Security Management Act (FISMA) of 2002 and the Privacy act of 1974. Given the sensitive nature of the information contained within authoritative identity data sources, an agency should closely observe the requirements outlined in FISMA and consider implementing optional enhhancements to provide an additional measure of security, if justified based on the information system risk classification. Potential enhancements include:
+Authoritative data sources are subject to the security and privacy requirements in accordance with the Federal Information Security Management Act (FISMA) of 2002 and the Privacy act of 1974. Given the sensitive nature of the information contained within authoritative identity data sources, an agency should closely observe the requirements outlined in FISMA and consider implementing optional enhancements to provide an additional measure of security, if justified based on the information system risk classification. Potential enhancements include:
 
 * **Enforce strict access permissions.** In order to maximize data integrity within authoritative data sources, agencies should take steps to ensure that the information contained within authoritative data sources cannot be manipulated or changed without strict rules and enforcement mechanisms.
 
 * **Appropriateness of data usage.** Agencies should take additional measures beyond the FISMA requirements to ensure that data usage or exchange stemming from authoritative data sources can be recorded and audited as a means of ensuring that data is accessed, used, and shared in accordance with security and privacy policies.
 
-* **Employe security enhancements.** Agencies should consider applying the security enhancements associated with high-impact systems, outlined in SP-800-53, to authoritative data sources. Doing so requires that additional security controls are put in place to protect the system and its data.
+* **Employee security enhancements.** Agencies should consider applying the security enhancements associated with high-impact systems, outlined in SP-800-53, to authoritative data sources. Doing so requires that additional security controls are put in place to protect the system and its data.
 
 * **Verify authoritative source authenticity.** It may be desirable for downstream applications that rely on identity data from authoritative sources to validate the attributes provided by the source. This typically includes verifying the identity of the source and the time at which it validated the attribute values. This can be accomplished by verifying a digital signature placed by the authoritative source around selected groups of attribute- value pairs or through the use of a real-time verification service.
 
@@ -92,7 +92,7 @@ Authoritative data sources are subject to the security and privacy requirements 
 
 |<center> Implementation Tip </center> |
 |--------------------------------------|
-| Partially automating requests for redress within the standard IT environment can help speed up the processing time and improve data quality. However, requests for redress should never be processed without human reivew, because of the risk of falsification of identity details. |
+| Partially automating requests for redress within the standard IT environment can help speed up the processing time and improve data quality. However, requests for redress should never be processed without human review, because of the risk of falsification of identity details. |
 
 
 
