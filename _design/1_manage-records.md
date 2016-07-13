@@ -53,7 +53,7 @@ Unique identifiers should not be derived from or linked to data that is subject 
 
 Although there may be multiple authoritative sources containing different sets of data about an individual, the unique identifier should be generated from one originator. Doing so eliminates the possibility of collision or conflict between identifiers issued from different sources. In some cases, it may make sense for an agency to generate a unique identifier with an existing system that houses digital identity data (e.g., HR or PIV card enrollment). Some of these systems, however, only contain identity data for a portion of the total user population and should be extended to include the entire intended user population if they will be used to create unique identifiers. 
 
-It is also important that unique identifiers be reconciled on a regular basis to ensure there are neither redundant identifiers nor the same identities with different identifiers. If fraudulent enrollment is a concern, an agency can leverage one-to-many biometric matching against the entire enrolled community to detect duplicate enrollments and reconcile individuals who may have more than one identifer.
+It is also important that unique identifiers be reconciled on a regular basis to ensure there are neither redundant identifiers nor the same identities with different identifiers. If fraudulent enrollment is a concern, an agency can leverage one-to-many biometric matching against the entire enrolled community to detect duplicate enrollments and reconcile individuals who may have more than one identifier.
 
 <br>
 
@@ -107,6 +107,7 @@ Within an agency or organization, each application may have different naming sta
 Regardless of the approach, this type of attribute correlation is often labor and time intensive. In addition, use of manual attribute correlation can reduce the ability to detect and resolve security and audit issues that may arise in identity records and user accounts (e.g., duplicate entries for the same individual due to status or affiliation changes). This can also result in duplicate user accounts and identity records appearing in other agency applications. Duplicate user accounts can drive up software licensing costs on some applications, and the accounts may not get detected and terminated when a user leaves the agency. 
 
 Despite these challenges, an agency might choose this approach, because there is only a minimal need to change business processes and upgrade or procure technology. This might also serve as a transitional approach until regular technology refresh cycles allow an agency to implement a more automated solution to achieve greater levels of efficiency.
+
 
 
 
