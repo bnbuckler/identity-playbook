@@ -53,7 +53,7 @@ Unique identifiers should not be derived from or linked to data that is subject 
 
 Although there may be multiple authoritative sources containing different sets of data about an individual, the unique identifier should be generated from one originator. Doing so eliminates the possibility of collision or conflict between identifiers issued from different sources. In some cases, it may make sense for an agency to generate a unique identifier with an existing system that houses digital identity data (e.g., HR or PIV card enrollment). Some of these systems, however, only contain identity data for a portion of the total user population and should be extended to include the entire intended user population if they will be used to create unique identifiers. 
 
-It is also important that unique identifiers be reconciled on a regular basis to ensure there are neither redundant identifiers nor the same identities with different identifiers. If fraudulent enrollment is a concern, an agency can leverage one-to-many biometric matching against the entire enrolled community to detect duplicate enrollments and reconcile individuals who may have more than one identifer.
+It is also important that unique identifiers be reconciled on a regular basis to ensure there are neither redundant identifiers nor the same identities with different identifiers. If fraudulent enrollment is a concern, an agency can leverage one-to-many biometric matching against the entire enrolled community to detect duplicate enrollments and reconcile individuals who may have more than one identifier.
 
 <br>
 
