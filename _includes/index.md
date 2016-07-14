@@ -1,9 +1,6 @@
 # Streamling Collection and Sharing of Digital Identity Data
 ----------------------------------------------------------------
-<<<<<<< HEAD
 
-=======
->>>>>>> refs/remotes/origin/master
 This playbook provides guidance for eliminating inefficiencies and redundancies in the collection and maintenance of identity data. It also aims to mitigate security and privacy risks associated with current identity data management processes. Digital identity, a foundational component of ICAM, is an electronic representation of an individual that is composed of identity attributes.
 
 Eliminating inefficiencies requires that agencies eliminate the manual, redundant, and often paper-based collection of identity attributes in favor of implementing an automated method of collecting identity data once, storing it in authoritative source systems, and sharing when necessary to support the agency's mission. 
@@ -82,7 +79,6 @@ This playbook has been divided into 4 sections:
 
   * Learn about the [considerations](../identity-playbook/implement/aaes-implement/) agencies should take when implementing an Authoritative Attribute Exchange Service
 
->>>>>>> refs/remotes/origin/master
 
 
 
