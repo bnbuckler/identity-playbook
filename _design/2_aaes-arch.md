@@ -2,11 +2,7 @@
 layout: page_collection
 title: AAES Architecture
 collection: design
-<<<<<<< HEAD
 permalink: design/2_aaes-arch/
-=======
-permalink: design/aaes-arch/
->>>>>>> refs/remotes/origin/master
 ---
 <script>
 $(function() {
