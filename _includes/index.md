@@ -8,7 +8,6 @@ Eliminating inefficiencies requires that agencies eliminate the manual, redundan
 Additionally, agencies are expected to establish an Authoritative Attribute Exchange Service (AAES) to enable secure electronic sharing of identity attributes.
 
 This playbook has been divided into 4 sections:
-<<<<<<< HEAD
 
 <br>
 
@@ -43,7 +42,7 @@ This playbook has been divided into 4 sections:
 <br>
 
   * Learn about the [considerations](../identity-playbook/implement/aaes-implement/) agencies should take when implementing an Authoritative Attribute Exchange Service
-=======
+
 
 <br>
 
