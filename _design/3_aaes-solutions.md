@@ -13,6 +13,8 @@ $(function() {
   });
 });
 </script>
+-----------------------------------------------------------
+
 This section describes the functionality and approaches for implementing the AAES Infrastructure components, the Authoritative Attribute Manager (AAM) and the Authoritative Attribute Distributor (AAD). 
 
 In some cases, it may be possible to achieve the functionality described for both the AAM and AAD by implementing a single product or tool. Conversely, it is also possible that multiple products and/or purpose-built applications could be integrated to create a single AAES solution. Each agency should evaluate their existing and planned ICAM investments as well as the agency's infrastructure and select an implementation approach that best meets the business needs and mission requirements of the agency.
