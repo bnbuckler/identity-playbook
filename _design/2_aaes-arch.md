@@ -30,23 +30,3 @@ This diagram is intended to serve as a high-level depiction of an AAES capabilit
 As depicted above, an AAES provides a consolidated system for securely and electronically exchanging digital identity attributes between authoritative data sources and the agency applications that consume those attributes. In many cases, this data is spread across multiple authoritative sources within an agency, which complicates the challenge of exchanging attributes between sources and consumers. The Authoritative Attribute Manager provides the capability to present a single, authoritative view of that data by reconciling and aggregating attributes from the various sources. The Authoritative Distributor is the component that integrates with attribute consumers and conducts the data exchange. 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> refs/remotes/origin/master
