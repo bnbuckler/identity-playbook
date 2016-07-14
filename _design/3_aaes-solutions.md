@@ -13,8 +13,6 @@ $(function() {
   });
 });
 </script>
-<<<<<<< HEAD
-<<<<<<< HEAD
 ---------------------------------------------------------------------
 
 This section describes the functionality and approaches for implementing the AAES Infrastructure components, the Authoritative Attribute Manager (AAM) and the Authoritative Attribute Distributor (AAD). 
@@ -84,17 +82,3 @@ The AAD can also be a separate product from the Manager. In this case, a physica
 In order to ensure the security and integrity of the AAES, both users and consumer applications must interface with the service through a proxy or secure protocol following successful authentication. The AAD should be capable of exposing a wide range of secure communications protocols in order to meet the needs of the agency's consumer applications. The integration of each consumer application with the Distributor should be governed by an agreement that defines the specific attributes that will be provided and specifies data usage, distribution, and synchronization requirements. Although individual consumer applications may have access to different data, it is important for the AAES to have a common access management component to provide a consistent level of protection.
 
 
-
-
-
-
-
-
-
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> refs/remotes/origin/master
