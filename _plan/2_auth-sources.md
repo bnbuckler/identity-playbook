@@ -93,7 +93,10 @@ Authoritative data sources are subject to the security and privacy requirements 
 |<center> Implementation Tip </center> |
 |--------------------------------------|
 | Partially automating requests for redress within the standard IT environment can help speed up the processing time and improve data quality. However, requests for redress should never be processed without human review, because of the risk of falsification of identity details. |
+<<<<<<< HEAD:_plan/2_auth-sources.md
 
+=======
+>>>>>>> refs/remotes/origin/master:_plan/2_auth-sources.md
 
 
 

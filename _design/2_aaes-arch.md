@@ -2,7 +2,11 @@
 layout: page_collection
 title: AAES Architecture
 collection: design
+<<<<<<< HEAD
 permalink: design/2_aaes-arch/
+=======
+permalink: design/aaes-arch/
+>>>>>>> refs/remotes/origin/master
 ---
 <script>
 $(function() {
@@ -45,5 +49,8 @@ As depicted above, an AAES provides a consolidated system for securely and elect
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> refs/remotes/origin/master

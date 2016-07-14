@@ -29,4 +29,7 @@ In the AAES infrastructure, there are two main components:  Authoritative Attrib
 There are several design characteristics that an agency should include when designing their AAES architecture. 
 
 <br>
+<<<<<<< HEAD
 
+=======
+>>>>>>> refs/remotes/origin/master
